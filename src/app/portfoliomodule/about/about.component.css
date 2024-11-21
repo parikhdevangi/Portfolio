@@ -1,0 +1,49 @@
+.experience{
+    position: relative;
+    display: flex;
+}
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  display: flex;
+} 
+.exp-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.exp-detail-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.details-container {
+  padding: 1rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  
+}
+.article_container {
+    display: flex;
+    text-align: initial;
+    flex-wrap:wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content:space-around;
+}
+article{
+    display: flex;  
+    width: 10rem;
+    justify-content:space-around;
+    
+}
+article .icon{
+    cursor: default;
+   
+}

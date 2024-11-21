@@ -1,0 +1,32 @@
+.footer{
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 15vh;
+  margin: 0 1rem;
+    
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 4.5em;
+}
+.footer-links a{
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.footer-links a:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+.footer p{
+    margin-top: 18px;
+}

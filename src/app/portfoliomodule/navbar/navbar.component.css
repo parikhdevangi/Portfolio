@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 40px;
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 17vh;
+}
+
+.logo{
+  font-size: 2rem;
+}
+.logo:hover{
+  cursor: default;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+.nav-links li {
+  margin-right: 20px;
+  
+}
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  font-size: 1.5rem;
+}
+.nav-links a:hover{
+    cursor: pointer;
+    color: blueviolet;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
